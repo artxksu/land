@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Cera Round Pro";
+    src: url("../fonts/CeraRoundPro-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Cera Round Pro";
+    src: url("../fonts/CeraRoundPro-Medium.ttf");
+    font-weight: 500;
+}
