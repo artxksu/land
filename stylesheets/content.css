@@ -1,0 +1,1302 @@
+html {
+    background-color: #FFA1C3;
+    overflow-x: hidden;
+}
+
+/* .fon {
+    opacity: 40%;
+    z-index: 1;
+    position: absolute;
+    width: 100vw;
+} */
+
+/* заголовок уборка */
+.letters {
+    font-family: "Cera Round Pro";
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.blur {
+    position: absolute;
+    animation: elements 3s ease-out infinite;
+    transition: 1.3s;
+}
+
+header {
+    position: relative;
+    z-index: 2;
+    height: 52.36vw;
+    overflow: hidden;
+}
+
+.move {
+    animation: move 6s ease-out infinite;
+
+}
+
+/* движение элементов */
+@keyframes move {
+    from {
+        transform: translateY(0vw);
+
+    }
+
+    50% {
+        transform: translateY(1.5vw);
+
+    }
+}
+
+/* размытие элементов */
+@keyframes elements {
+    from {
+        filter: blur(0vw);
+    }
+
+    50% {
+        filter: blur(1.11vw);
+    }
+}
+
+/* стили элементов */
+.img1 {
+    width: 22.57vw;
+    height: 11.18vw;
+    left: 1.49vw;
+}
+
+.img2 {
+    width: 9.43vw;
+    height: 13.97vw;
+    top: 5.14vw;
+    left: -0.2vw;
+}
+
+.img3 {
+    width: 10.49vw;
+    height: 12.15vw;
+    top: 22.09vw;
+    left: -1vw;
+}
+
+.img4 {
+    width: 10.69vw;
+    height: 11.87vw;
+    top: 38.19vw;
+    left: 1.18vw;
+}
+
+.img5 {
+    width: 9.9vw;
+    height: 11.68vw;
+    top: 42.11vw;
+    left: 10.35vw;
+}
+
+.img6 {
+    width: 12.7vw;
+    height: 18.61vw;
+    left: 22.78vw;
+}
+
+.img7 {
+    width: 7.77vw;
+    height: 6.11vw;
+    top: 17.57vw;
+    left: 25.9vw;
+}
+
+.img8 {
+    width: 13.40vw;
+    height: 12.29vw;
+    top: 39.1vw;
+    left: 29.57vw;
+}
+
+.img9 {
+    width: 8.26vw;
+    height: 8.12vw;
+    top: -3.4vw;
+    left: 36.74vw;
+}
+
+.img10 {
+    width: 8.75vw;
+    height: 12.08vw;
+    top: 13.12vw;
+    left: 41.53vw;
+}
+
+.img11 {
+    width: 7.08vw;
+    height: 7.22vw;
+    top: 31.87vw;
+    left: 42.92vw;
+}
+
+.img12 {
+    width: 17.38vw;
+    height: 17.5vw;
+    top: 36.08vw;
+    left: 45.92vw;
+}
+
+.img13 {
+    width: 11.04vw;
+    height: 11.04vw;
+    top: -0.45vw;
+    left: 52.36vw;
+}
+
+.img14 {
+    width: 13.81vw;
+    height: 10.84vw;
+    top: 8.47vw;
+    left: 62.5vw;
+}
+
+.img15 {
+    width: 14.58vw;
+    height: 11.46vw;
+    top: 35.49vw;
+    left: 64.1vw;
+}
+
+.img16 {
+    width: 11.46vw;
+    height: 10.55vw;
+    top: -2.1vw;
+    left: 68.75vw;
+}
+
+.img17 {
+    width: 13.4vw;
+    height: 13.124vw;
+    top: 0.97vw;
+    left: 88.75vw;
+}
+
+.img18 {
+    width: 9.04vw;
+    height: 7.15vw;
+    top: 19.30vw;
+    left: 84.03vw;
+}
+
+.img19 {
+    width: 9.04vw;
+    height: 8.34vw;
+    top: 36.53vw;
+    left: 80.42vw;
+}
+
+.img20 {
+    width: 4.44vw;
+    height: 6.11vw;
+    top: 43.96vw;
+    left: 92.78vw;
+}
+
+.letters>div {
+    position: absolute;
+}
+
+.letters {
+    filter: blur(1.11vw);
+    transition: 2s;
+}
+
+/* анимация заголовка по наведению */
+.letters:hover {
+    filter: blur(0vw);
+
+}
+
+.logo {
+    position: absolute;
+    width: 20.14vw;
+    height: 18.17vw;
+    top: 28.26vw;
+    left: 6.43vw;
+}
+
+.letter1 {
+    font-size: 24.86vw;
+    top: 2vw;
+    left: 7vw;
+    transform: rotate(28.5deg);
+}
+
+.letter2 {
+    font-size: 31.80vw;
+    top: 15.72vw;
+    left: 15.39vw;
+    transform: rotate(-40deg);
+}
+
+.letter3 {
+    font-size: 31.80vw;
+    top: 3.53vw;
+    left: 31.79vw;
+}
+
+.letter4 {
+    font-size: 31.80vw;
+    top: 15.07vw;
+    left: 51.67vw;
+    transform: rotate(35deg);
+}
+
+.letter5 {
+    font-size: 31.80vw;
+    left: 72.37vw;
+    transform: rotate(35deg);
+}
+
+.letter6 {
+    font-size: 24.86vw;
+    top: 18.67vw;
+    left: 82.62vw;
+    transform: rotate(35deg);
+}
+
+/* экран2 */
+section1 {
+    position: relative;
+    height: 61.75vw;
+    display: block;
+    overflow: hidden;
+}
+
+.plashka {
+    position: absolute;
+    z-index: 2;
+}
+
+.plashka1 {
+    width: 35.49vw;
+    height: 8.05vw;
+    left: 60.97vw;
+}
+
+.plashka2 {
+    width: 30.55vw;
+    height: 7.64vw;
+    top: 50.5vw;
+    left: 3.24vw;
+}
+
+.plate1 {
+    position: absolute;
+    width: 29.17vw;
+    height: 27.78vw;
+    top: 13.47vw;
+    left: 2.36vw;
+    animation: plates 3s ease-out infinite;
+}
+
+.plate2 {
+    position: absolute;
+    width: 38.68vw;
+    height: 37.08vw;
+    top: 9.77vw;
+    left: 31.53vw;
+    animation: plates 3s ease-out infinite;
+}
+
+.plate3 {
+    position: absolute;
+    width: 27.92vw;
+    height: 26.25vw;
+    top: 15vw;
+    left: 70.21vw;
+    animation: plates 3s ease-out infinite;
+}
+
+/* анимации тарелочек */
+@keyframes plates {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* стили для подсказок */
+.rule {
+    font-family: 'Cera Round Pro';
+    font-weight: 400;
+    font-size: 2.71vw;
+    color: #FF89AB;
+    position: absolute;
+    z-index: 3;
+}
+
+.rule1 {
+    display: inline;
+    top: 1.65vw;
+    left: 64.44vw;
+}
+
+.rule2 {
+    display: inline;
+    top: 53.7vw;
+    left: 6.8vw;
+}
+
+/* третий экран */
+section2 {
+    position: relative;
+    display: block;
+    height: 77.78vw;
+    overflow: hidden;
+}
+
+.box {
+    z-index: 2;
+    position: absolute;
+    left: 49.58vw;
+    width: 48.54vw;
+    height: 63.26vw;
+}
+
+.pribor {
+    z-index: 3;
+    position: absolute;
+    animation: pribor 1s ease-in-out infinite;
+}
+
+/* анимации приборов  */
+@keyframes pribor {
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+
+.pribor1 {
+    width: 15.87vw;
+    height: 26.87vw;
+    top: 2.01vw;
+    left: 9.44vw;
+}
+
+.pribor2 {
+    width: 9.87vw;
+    height: 26.87vw;
+    top: 16.44vw;
+    left: 2.64vw;
+}
+
+.pribor3 {
+    width: 9.87vw;
+    height: 26.87vw;
+    top: 33.44vw;
+    left: 12.64vw;
+}
+
+.pribor4 {
+    width: 15.87vw;
+    height: 24.87vw;
+    top: 3.44vw;
+    left: 30.64vw;
+}
+
+.pribor5 {
+    width: 6.87vw;
+    height: 24.87vw;
+    top: 12.44vw;
+    left: 24.64vw;
+}
+
+.pribor6 {
+    width: 17.87vw;
+    height: 25.87vw;
+    top: 34.44vw;
+    left: 31.64vw;
+}
+
+.plashka3 {
+    top: 66.58vw;
+    left: 46.87vw;
+    width: 49.51vw;
+    height: 8.12vw;
+}
+
+.rule3 {
+    top: 70.1vw;
+    left: 50.42vw;
+}
+
+/* экран с анимацией швабры))) */
+section3 {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 38.75vw;
+
+}
+
+.schetka {
+    position: absolute;
+    width: 82.99vw;
+    height: 36.11vw;
+    top: 2vw;
+    left: -82.99vw;
+    animation: schetka 4s ease-out infinite;
+    z-index: 3;
+}
+
+.shvabra {
+    position: absolute;
+    width: 83.4vw;
+    height: 38.75vw;
+    left: 100vw;
+    animation: shvabra 4s ease-out infinite;
+    z-index: 3;
+}
+
+/* анимация щетки */
+@keyframes schetka {
+    from {
+        left: -82.99vw;
+    }
+
+    50% {
+        left: -31.87vw;
+    }
+}
+
+/* анимация швабры */
+@keyframes shvabra {
+    from {
+        left: 100vw;
+    }
+
+    50% {
+        left: 52vw;
+    }
+}
+
+/* лапки) */
+.lapki {
+    position: absolute;
+    z-index: 2;
+    width: 35.19vw;
+    height: 33.37vw;
+}
+
+.lapki1 {
+    top: 10.91vw;
+    left: 10.14vw;
+    animation: lapki 4s ease-out infinite;
+}
+
+.lapki2 {
+    top: 5.7vw;
+    left: 37.82vw;
+    animation: lapki 4s ease-out infinite;
+}
+
+.lapki3 {
+    top: -4vw;
+    left: 63.93vw;
+    animation: lapki 4s ease-out infinite;
+}
+
+/* анимации лапок */
+@keyframes lapki {
+    from {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+}
+
+/* экран с шариками */
+section4 {
+    position: relative;
+    display: block;
+    height: 64.44vw;
+
+}
+
+.plashka4 {
+    top: 6.04vw;
+    left: 3.73vw;
+    width: 37.36vw;
+    height: 8.05vw;
+}
+
+.rule4 {
+    top: 7.78vw;
+    left: 7.3vw;
+}
+
+.pool1 {
+    position: absolute;
+    width: 46.32vw;
+    height: 46.04vw;
+    top: 15.65vw;
+    left: 2.29vw;
+
+}
+
+.pool2 {
+    position: absolute;
+    width: 44.03vw;
+    height: 44.51vw;
+    top: 18.18vw;
+    left: 52.92vw;
+}
+
+.ball {
+    position: absolute;
+    width: 7.99vw;
+    height: 7.99vw;
+}
+
+.ball1 {
+    top: 17.53vw;
+    left: 21.94vw;
+    width: 10.99vw;
+    height: 12.99vw;
+}
+
+.ball2 {
+    top: 17.53vw;
+    left: 14.94vw;
+    width: 11.99vw;
+    height: 12.99vw;
+}
+
+.ball3 {
+    top: 22.11vw;
+    left: 9.7vw;
+    width: 10.99vw;
+    height: 11.99vw;
+}
+
+.ball4 {
+    top: 28.04vw;
+    left: 2.65vw;
+    width: 16.99vw;
+    height: 11.99vw;
+}
+
+.ball5 {
+    top: 34.04vw;
+    left: 0.65vw;
+    width: 16.99vw;
+    height: 10.99vw;
+}
+
+.ball6 {
+    top: 41.04vw;
+    left: -0.1vw;
+    width: 19.99vw;
+    height: 11.99vw;
+}
+
+.ball7 {
+    top: 45.04vw;
+    left: 9vw;
+    width: 10.99vw;
+    height: 12.99vw;
+}
+
+.ball8 {
+    top: 51.04vw;
+    left: 15vw;
+    width: 10.99vw;
+    height: 9.99vw;
+}
+
+.ball9 {
+    top: 25.04vw;
+    left: 14vw;
+    width: 13.99vw;
+    height: 10.99vw;
+}
+
+.ball10 {
+    top: 35.04vw;
+    left: 11vw;
+}
+
+.ball11 {
+    top: 39.04vw;
+    left: 10vw;
+    width: 10.99vw;
+    height: 10.99vw;
+}
+
+.ball12 {
+    top: 44.04vw;
+    left: 14vw;
+    width: 11.99vw;
+    height: 10.99vw;
+}
+
+.ball13 {
+    top: 31.04vw;
+    left: 16vw;
+    width: 11.99vw;
+    height: 10.99vw;
+}
+
+.ball14 {
+    top: 39.04vw;
+    left: 19vw;
+}
+
+.ball15 {
+    top: 30.04vw;
+    left: 23vw;
+}
+
+.ball16 {
+    top: 36.04vw;
+    left: 24vw;
+}
+
+.ball17 {
+    top: 40.04vw;
+    left: 26vw;
+    width: 11.99vw;
+    height: 10.99vw;
+}
+
+.ball18 {
+    top: 46.04vw;
+    left: 23vw;
+}
+
+.ball19 {
+    top: 52.04vw;
+    left: 23vw;
+}
+
+.ball20 {
+    top: 21.04vw;
+    left: 30vw;
+}
+
+.ball21 {
+    top: 28.04vw;
+    left: 29vw;
+}
+
+.ball22 {
+    top: 35.04vw;
+    left: 32vw;
+}
+
+.ball23 {
+    top: 28vw;
+    left: 36vw;
+}
+
+.ball24 {
+    top: 32.74vw;
+    left: 36vw;
+    width: 11.99vw;
+    height: 10.99vw;
+}
+
+.ball25 {
+    top: 40vw;
+    left: 36vw;
+}
+
+.ball26 {
+    top: 46vw;
+    left: 35vw;
+}
+
+.ball27 {
+    top: 51vw;
+    left: 30vw;
+}
+
+.ball28 {
+    top: 20vw;
+    left: 57vw;
+}
+
+.ball29 {
+    top: 26vw;
+    left: 58vw;
+}
+
+.ball30 {
+    top: 32vw;
+    left: 55vw;
+}
+
+.ball31 {
+    top: 38vw;
+    left: 56vw;
+}
+
+.ball32 {
+    top: 45vw;
+    left: 55vw;
+}
+
+.ball33 {
+    top: 52vw;
+    left: 56vw;
+}
+
+.ball34 {
+    top: 21vw;
+    left: 63vw;
+}
+
+.ball35 {
+    top: 30vw;
+    left: 65vw;
+}
+
+.ball36 {
+    top: 35vw;
+    left: 61vw;
+}
+
+.ball37 {
+    top: 40vw;
+    left: 65vw;
+}
+
+.ball38 {
+    top: 46vw;
+    left: 62vw;
+}
+
+.ball39 {
+    top: 52vw;
+    left: 66vw;
+}
+
+.ball40 {
+    top: 20vw;
+    left: 70vw;
+}
+
+.ball41 {
+    top: 26vw;
+    left: 70vw;
+}
+
+.ball42 {
+    top: 35vw;
+    left: 70vw;
+}
+
+.ball43 {
+    top: 45vw;
+    left: 70vw;
+}
+
+.ball44 {
+    top: 24vw;
+    left: 76vw;
+}
+
+.ball45 {
+    top: 31vw;
+    left: 76vw;
+}
+
+.ball46 {
+    top: 39vw;
+    left: 75vw;
+}
+
+.ball47 {
+    top: 45vw;
+    left: 77vw;
+}
+
+.ball48 {
+    top: 52vw;
+    left: 74vw;
+}
+
+.ball49 {
+    top: 20.5vw;
+    left: 81.5vw;
+}
+
+.ball50 {
+    top: 27.5vw;
+    left: 82vw;
+}
+
+.ball51 {
+    top: 34.5vw;
+    left: 81vw;
+}
+
+.ball52 {
+    top: 40.5vw;
+    left: 81vw;
+}
+
+.ball53 {
+    top: 51.5vw;
+    left: 83vw;
+}
+
+.ball54 {
+    top: 22.5vw;
+    left: 87vw;
+}
+
+.ball55 {
+    top: 32.5vw;
+    left: 87.5vw;
+}
+
+.ball56 {
+    top: 39.5vw;
+    left: 87.6vw;
+}
+
+.ball57 {
+    top: 46.5vw;
+    left: 86vw;
+}
+
+/* экран с изменением цвета по клику*/
+section5 {
+    position: relative;
+    display: block;
+    height: 93.61vw;
+    overflow: hidden;
+}
+
+.polka1 {
+    position: absolute;
+    width: 66.94vw;
+    height: 9.72vw;
+    top: 28.78vw;
+    left: 30.69vw;
+}
+
+.polka2 {
+    position: absolute;
+    width: 67.64vw;
+    height: 9.86vw;
+    top: 67.11vw;
+    left: 3.05vw;
+}
+
+.stuff {
+    position: absolute;
+}
+
+.stuff1 {
+    width: 25.14vw;
+    height: 25.14vw;
+    top: 9.19vw;
+    left: 29.79vw;
+}
+
+.stuff2 {
+    width: 23.89vw;
+    height: 17.29vw;
+    top: 16.19vw;
+    left: 54.79vw;
+}
+
+.stuff3 {
+    width: 6.25vw;
+    height: 26.6vw;
+    top: 7.19vw;
+    left: 78.79vw;
+}
+
+.stuff4 {
+    width: 6.05vw;
+    height: 26vw;
+    top: 7.79vw;
+    left: 86.79vw;
+}
+
+.stuff5 {
+    width: 22.43vw;
+    height: 16.11vw;
+    top: 56vw;
+    left: 5.28vw;
+}
+
+.stuff6 {
+    width: 19.65vw;
+    height: 11.25vw;
+    top: 60vw;
+    left: 28vw;
+}
+
+.stuff7 {
+    width: 14.93vw;
+    height: 26.62vw;
+    top: 46vw;
+    left: 51vw;
+}
+
+.plashka5 {
+    width: 35.62vw;
+    height: 10.97vw;
+    top: 80.5vw;
+    left: 60.5vw;
+}
+
+.rule5 {
+    display: inline;
+    top: 83.5vw;
+    left: 64.49vw;
+    line-height: 3.33vw;
+}
+
+/* экран со скролл-анимацией */
+section6 {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 92vw;
+}
+
+.plashka6 {
+    width: 45.97vw;
+    height: 8.1vw;
+    top: 0.85vw;
+    left: 3.68vw;
+}
+
+.rule6 {
+    display: inline;
+    top: 2.63vw;
+    left: 7.22vw;
+}
+
+.card {
+    position: absolute;
+}
+
+.card1 {
+    width: 47.76vw;
+    height: 36.85vw;
+    left: -13vw;
+    top: 19.43vw;
+    z-index: 5;
+    animation: card1 5s ease-out infinite;
+}
+
+/* анимация карточки1 */
+@keyframes card1 {
+    from {
+        left: -13vw;
+        top: 19.43vw;
+    }
+
+    50% {
+        left: -9vw;
+        top: 9.6vw;
+        transform: rotate(51.54deg);
+    }
+}
+
+.card2 {
+    width: 31.39vw;
+    height: 39.93vw;
+    left: 4.69vw;
+    top: 7.96vw;
+    z-index: 4;
+    animation: card2 5s ease-out infinite;
+}
+
+/* анимация карточки2 */
+@keyframes card2 {
+    from {
+        left: 4.69vw;
+        top: 7.96vw;
+
+    }
+
+    50% {
+        left: 22.66vw;
+        top: 7.37vw;
+        transform: rotate(21.97deg);
+
+    }
+}
+
+.card3 {
+    width: 32.39vw;
+    height: 30.53vw;
+    left: 21.69vw;
+    top: 7.96vw;
+    z-index: 3;
+    animation: card3 5s ease-out infinite;
+}
+
+/* анимация карточки3 */
+@keyframes card3 {
+    from {
+        left: 21.69vw;
+        top: 7.96vw;
+
+    }
+
+    50% {
+        left: 45.76vw;
+        top: 12.37vw;
+        transform: rotate(-1.97deg);
+
+    }
+}
+
+.card4 {
+    width: 32.39vw;
+    height: 34.93vw;
+    left: 33.69vw;
+    top: 9.96vw;
+    z-index: 2;
+    animation: card4 5s ease-out infinite;
+}
+
+/* анимация карточки4 */
+@keyframes card4 {
+    from {
+        left: 35.69vw;
+        top: 9.96vw;
+
+    }
+
+    50% {
+        left: 69.46vw;
+        top: 10.69vw;
+        transform: rotate(-25.86deg);
+
+    }
+}
+
+.card5 {
+    width: 32.39vw;
+    height: 37.93vw;
+    left: 36.69vw;
+    top: 45.96vw;
+    z-index: 5;
+    animation: card5 5s ease-out infinite;
+
+}
+
+/* анимация карточки5 */
+@keyframes card5 {
+    from {
+        left: 36.69vw;
+        top: 45.96vw;
+
+    }
+
+    50% {
+        left: -3vw;
+        top: 40.49vw;
+        transform: rotate(28.06deg);
+
+    }
+}
+
+.card6 {
+    width: 28.39vw;
+    height: 29.93vw;
+    left: 54.69vw;
+    top: 45.96vw;
+    z-index: 4;
+    animation: card6 5s ease-out infinite;
+
+}
+
+/* анимация карточки6 */
+@keyframes card6 {
+    from {
+        left: 54.69vw;
+        top: 45.96vw;
+
+    }
+
+    50% {
+        left: 22.66vw;
+        top: 44.19vw;
+        transform: rotate(1.96deg);
+    }
+}
+
+.card7 {
+    width: 33.39vw;
+    height: 35.43vw;
+    left: 63.69vw;
+    top: 42.96vw;
+    z-index: 3;
+    animation: card7 5s ease-out infinite;
+}
+
+/* анимация карточки7 */
+@keyframes card7 {
+    from {
+        left: 63.69vw;
+        top: 42.96vw;
+
+    }
+
+    50% {
+        left: 44.76vw;
+        top: 42.19vw;
+        transform: rotate(-28.91deg);
+    }
+}
+
+.card8 {
+    width: 35.39vw;
+    height: 54.93vw;
+    left: 74.69vw;
+    top: 47.96vw;
+    z-index: 2;
+    animation: card8 5s ease-out infinite;
+}
+
+/* анимация карточки8 */
+@keyframes card8 {
+    from {
+        left: 74.69vw;
+        top: 47.96vw;
+    }
+
+    50% {
+        left: 67.46vw;
+        top: 33.19vw;
+        transform: rotate(-52.77deg);
+    }
+}
+
+footer {
+    position: relative;
+    margin-top: -10vw;
+    display: block;
+    height: 38.39vw;
+    overflow: hidden;
+}
+
+.logos {
+    position: absolute;
+    width: 13.89vw;
+    height: 5.49vw;
+    top: 28.29vw;
+    left: 3.54vw;
+    z-index: 3;
+}
+
+.me {
+    position: absolute;
+    top: 28.29vw;
+    left: 75.07vw;
+    color: #FFFFFF;
+}
+
+.el1 {
+    width: 9.65vw;
+    height: 15.07vw;
+    top: 1.85vw;
+    left: 2.7vw;
+}
+
+.el2 {
+    width: 9.65vw;
+    height: 6.07vw;
+    top: 19.85vw;
+    left: -0.7vw;
+}
+
+.el3 {
+    width: 14.65vw;
+    height: 13.07vw;
+    top: -2.15vw;
+    left: 19.7vw;
+}
+
+.el4 {
+    width: 9.65vw;
+    height: 8.07vw;
+    top: 16.15vw;
+    left: 11.7vw;
+}
+
+.el5 {
+    width: 10.65vw;
+    height: 13.07vw;
+    top: 25.15vw;
+    left: 5.7vw;
+    z-index: 2;
+}
+
+.el6 {
+    width: 12.65vw;
+    height: 8.07vw;
+    top: 15.15vw;
+    left: 31.7vw;
+}
+
+.el7 {
+    width: 12.65vw;
+    height: 9.07vw;
+    top: 29.15vw;
+    left: 26.7vw;
+}
+
+.el8 {
+    width: 10.65vw;
+    height: 8.07vw;
+    top: 7.15vw;
+    left: 45.7vw;
+}
+
+.el9 {
+    width: 10.65vw;
+    height: 10.07vw;
+    top: 19.15vw;
+    left: 57.7vw;
+}
+
+.el10 {
+    width: 11.65vw;
+    height: 12.07vw;
+    top: 25.15vw;
+    left: 45.7vw;
+}
+
+.el11 {
+    width: 11.65vw;
+    height: 12.07vw;
+    top: 10.15vw;
+    left: 70.7vw;
+}
+
+.el12 {
+    width: 9.65vw;
+    height: 7.07vw;
+    top: 15.15vw;
+    left: 86.7vw;
+}
+
+.el13 {
+    width: 11.65vw;
+    height: 8.07vw;
+    top: 30.15vw;
+    left: 85.7vw;
+}
